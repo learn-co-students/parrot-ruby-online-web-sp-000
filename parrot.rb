@@ -1,2 +1,8 @@
-# Create method `parrot` that outputs a given phrase and
-# returns the phrase
+require 'pry'
+
+blank = "Pretty bird!"
+
+def parrot(blank = "Squawk!")
+  puts "#{blank}"
+  return "#{blank}"
+end
