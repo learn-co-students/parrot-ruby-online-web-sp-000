@@ -11,3 +11,8 @@ RSpec.configure do |config|
   #     --seed 1234
   config.order = 'default'
 end
+
+def parrot(string="Squawk!")
+  puts "#{string}"
+  "#{string}"
+end
